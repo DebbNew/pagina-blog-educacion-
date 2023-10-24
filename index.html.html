@@ -1,0 +1,175 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Introducción</a>
+          <a href="#secc2">¿Y sí el cash se va?</a>
+          <a href="#secc3">El control social</a>
+          <a href="#secc4">El control fiscal</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Introducción</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Recientemente, hemos escuchado como hay países en que no existe el dinero como China, Suecia y Dinamarca. ¿Sin dinero? ¿Cómo es esto posible?</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El estado propone una forma de pago que beneficie a la sociedad, esta es de manera digital; esto con la promesa de combatir con el crimen organizado. Sin embargo, ¿en verdad nos beneficiará como ciudadanos?</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>¿Y sí el cash se va?</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La realidad es que enfrentaremos diversas consecuencias que señalan diversos economistas y especialistas en el ámbito económico, en donde se destaca las aportaciones de Brett Scott. A continuación, te mencionaremos algunas de ellas:</p>
+		        <br>
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>El control social</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Al desaparecer el dinero físico, para comenzar a implementar del pago manera digital, se necesita estar de alta en estos sistemas. Suena sencillo, ¿no? Brett Scott menciona que cuando damos en " aceptar " a los términos realmente no sabemos quién tendrá acceso a nuestros datos; además de que muchos jóvenes no se toman el tiempo de leerlos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>A pesar de que, en una entrevista a los ciudadanos de Suecia, señalaran de que un registro de todos nuestros movimientos monetarios permite un comportamiento más "transparente" y "honesto" no deja de largo que sea un control hacia nuestra privacidad. Scott menciona que a futuro podría ser utilizado como una forma de intimidación. Imaginemos, en una campaña política cabe la posibilidad de utilizar los datos para desprestigiar la imagen de un contrincante a favor del partido.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>¿Qué eso no "nos incumbe"? Bueno, no estamos exentos de que el sistema falle o sufra un ataque en el que se filtre toda nuestra información. ¡Todos conocerán esa compra de lencería que hiciste!  ¡ese pago por tu tratamiento para las hemorroides! ¿Ahora puedes comprender a lo que estas expuesto?</p>
+		        <br>
+		        <p>Además, se generaría una división social; esta forma de pago (como absoluto) es incentivado a los jóvenes, pero no se considera a las personas mayores. El sector que ha sido el más perjudicado han sido los mayores; ellos no cuentan con conocimientos para comprender o intuir la forma de realizar las transacciones.</p>
+		        <br>
+    		<div class="imgs-secc-3">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img3.png" title="Img 3">
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Brett menciona que se puede utilizar para intimidar o manipular, ya que se exponen nuestros más íntimos secretos como, por ejemplo, nuestra orientación sexual.</p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p>Las personas mayores son más vulnerables en sufrir estafas o complicaciones en esta nueva forma de pago.</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img3.png" title="Img 3">
+	        		<!--texto para la imagen-->
+	        		<p>Brett menciona que se puede utilizar para intimidar o manipular, ya que se exponen nuestros más íntimos secretos como, por ejemplo, nuestra orientación sexual.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Las personas mayores son más vulnerables en sufrir estafas o complicaciones en esta nueva forma de pago.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>El control fiscal</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En un mundo sin dinero fiscal posiciona a los bancos y al estado como   los dueños de todo. Podría sonar muy exagerado, pero esto generaría que aceptáramos sus condiciones sí o sí. Ya no podrías tener la opción de negarte y guardar tu dinero en el colchón; y eso de adquirir recursos de valor sólo generaría una devaluación (se va perdiendo su valor). Además, ellos al tener el control podrían bloquear tu dinero y lo perderías todo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4"> 
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<br>
+        		<p>Estaremos bajo la merced de estas instituciones, seremos como sus esclavos ante sus condiciones. </p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/jemima.delacruz.12327?mibextid=ZbWKwL">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/jemima_cardenas">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="https://instagram.com/beeanimatordesign?igshid=YTQwZjQ0NmI0OA==">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
